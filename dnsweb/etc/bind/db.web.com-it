@@ -1,0 +1,13 @@
+$TTL 0
+@		IN SOA	dnsweb.com		root.dnsweb.com. (
+		1 ; serial
+		28800 ; refresh
+		14400 ; retry
+		3600000 ; expire
+		0 ; negative cache ttl
+		)
+;
+@		IN NS	dnsweb.com.
+dnsweb		IN A	172.0.0.6
+
+web		IN A	10.0.0.2

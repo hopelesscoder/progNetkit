@@ -1,0 +1,14 @@
+$TTL 60000
+@		IN SOA dnsusa.us.	root.dnsusa.us. (
+		1 ; serial
+		28000 ; refresh
+		14000 ; retry
+		3600000 ; exprire
+		0 ; negative cache ttl
+		)
+;
+
+@		IN NS	dnsusa.us.
+dnsusa		IN A	100.0.0.3
+
+pc7		IN A	100.0.0.2

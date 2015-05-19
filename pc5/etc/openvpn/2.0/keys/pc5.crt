@@ -1,0 +1,71 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 2 (0x2)
+        Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=it, ST=italia, L=roma, O=Fort-Funston, CN=Fort-Funston CA/emailAddress=me@myhost.mydomain
+        Validity
+            Not Before: May  9 10:59:16 2015 GMT
+            Not After : May  6 10:59:16 2025 GMT
+        Subject: C=it, ST=italia, L=milano, O=Fort-Funston, CN=pc5/emailAddress=me@myhost.mydomain
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+            RSA Public Key: (1024 bit)
+                Modulus (1024 bit):
+                    00:cc:7b:3c:80:ae:86:0b:d0:c5:10:87:c2:5e:84:
+                    c8:53:e0:aa:8a:8e:fa:e5:af:93:f9:8f:b1:1c:a4:
+                    7c:ac:88:16:6c:3e:6b:40:cd:75:e1:fb:a4:68:aa:
+                    09:cd:b2:04:71:b0:ea:61:fa:ad:99:10:e4:7e:93:
+                    a8:b9:fd:39:de:8e:d5:12:23:fb:e2:c0:ac:4e:86:
+                    ef:39:22:5c:f4:bb:aa:69:13:c4:bf:a3:ab:d5:89:
+                    db:19:f9:68:15:29:48:70:60:7a:8f:87:30:5f:70:
+                    bc:89:d2:ad:04:48:d0:13:b0:58:91:f6:7f:aa:15:
+                    aa:51:1b:7c:fe:b6:d1:4d:77
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Comment: 
+                Easy-RSA Generated Certificate
+            X509v3 Subject Key Identifier: 
+                24:DB:4E:F1:50:B8:C0:85:1F:52:F3:9E:C4:26:0D:DC:CB:4D:55:AE
+            X509v3 Authority Key Identifier: 
+                keyid:F0:40:27:26:02:54:9A:B0:21:D1:73:EB:33:A2:D4:3A:52:71:A9:81
+                DirName:/C=it/ST=italia/L=roma/O=Fort-Funston/CN=Fort-Funston CA/emailAddress=me@myhost.mydomain
+                serial:D6:99:98:00:23:27:87:BC
+
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication
+            X509v3 Key Usage: 
+                Digital Signature
+    Signature Algorithm: sha1WithRSAEncryption
+        29:26:b4:1e:ad:16:fc:94:48:5f:83:d1:0e:0f:ec:d4:61:3e:
+        46:6c:75:d8:7e:0f:6a:57:bb:52:98:d1:d4:05:e1:59:21:cf:
+        4e:ee:19:56:1e:95:7b:50:8a:5f:0c:1b:bf:fe:d0:4f:94:1c:
+        c0:3c:d4:e1:07:19:39:82:1e:4a:6d:50:db:5f:56:f2:ef:92:
+        73:b4:7b:e3:61:2a:a2:f2:4e:fa:70:04:fc:87:f0:a3:99:13:
+        03:d5:5c:1c:cb:52:1c:f8:4a:26:25:1b:ba:c4:b5:a0:2b:d6:
+        ce:96:ec:e5:66:ae:bb:d7:30:37:76:2a:0f:af:da:e2:53:44:
+        ec:03
+-----BEGIN CERTIFICATE-----
+MIIDqTCCAxKgAwIBAgIBAjANBgkqhkiG9w0BAQUFADCBgTELMAkGA1UEBhMCaXQx
+DzANBgNVBAgTBml0YWxpYTENMAsGA1UEBxMEcm9tYTEVMBMGA1UEChMMRm9ydC1G
+dW5zdG9uMRgwFgYDVQQDEw9Gb3J0LUZ1bnN0b24gQ0ExITAfBgkqhkiG9w0BCQEW
+Em1lQG15aG9zdC5teWRvbWFpbjAeFw0xNTA1MDkxMDU5MTZaFw0yNTA1MDYxMDU5
+MTZaMHcxCzAJBgNVBAYTAml0MQ8wDQYDVQQIEwZpdGFsaWExDzANBgNVBAcTBm1p
+bGFubzEVMBMGA1UEChMMRm9ydC1GdW5zdG9uMQwwCgYDVQQDEwNwYzUxITAfBgkq
+hkiG9w0BCQEWEm1lQG15aG9zdC5teWRvbWFpbjCBnzANBgkqhkiG9w0BAQEFAAOB
+jQAwgYkCgYEAzHs8gK6GC9DFEIfCXoTIU+Cqio765a+T+Y+xHKR8rIgWbD5rQM11
+4fukaKoJzbIEcbDqYfqtmRDkfpOouf053o7VEiP74sCsTobvOSJc9LuqaRPEv6Or
+1YnbGfloFSlIcGB6j4cwX3C8idKtBEjQE7BYkfZ/qhWqURt8/rbRTXcCAwEAAaOC
+ATgwggE0MAkGA1UdEwQCMAAwLQYJYIZIAYb4QgENBCAWHkVhc3ktUlNBIEdlbmVy
+YXRlZCBDZXJ0aWZpY2F0ZTAdBgNVHQ4EFgQUJNtO8VC4wIUfUvOexCYN3MtNVa4w
+gbYGA1UdIwSBrjCBq4AU8EAnJgJUmrAh0XPrM6LUOlJxqYGhgYekgYQwgYExCzAJ
+BgNVBAYTAml0MQ8wDQYDVQQIEwZpdGFsaWExDTALBgNVBAcTBHJvbWExFTATBgNV
+BAoTDEZvcnQtRnVuc3RvbjEYMBYGA1UEAxMPRm9ydC1GdW5zdG9uIENBMSEwHwYJ
+KoZIhvcNAQkBFhJtZUBteWhvc3QubXlkb21haW6CCQDWmZgAIyeHvDATBgNVHSUE
+DDAKBggrBgEFBQcDAjALBgNVHQ8EBAMCB4AwDQYJKoZIhvcNAQEFBQADgYEAKSa0
+Hq0W/JRIX4PRDg/s1GE+Rmx12H4Pale7UpjR1AXhWSHPTu4ZVh6Ve1CKXwwbv/7Q
+T5QcwDzU4QcZOYIeSm1Q219W8u+Sc7R742EqovJO+nAE/Ifwo5kTA9VcHMtSHPhK
+JiUbusS1oCvWzpbs5Wauu9cwN3YqD6/a4lNE7AM=
+-----END CERTIFICATE-----
