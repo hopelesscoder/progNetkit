@@ -1,0 +1,21 @@
+$TTL	60000
+@		IN SOA	.	root.ROOTSERVER. (
+			100 ; serial
+			28000 ; refresh
+			14000 ; retry
+			3600000 ; expire
+			0 ; negative cache ttl
+			)
+;
+
+.		IN NS	ROOTSERVER.
+ROOTSERVER.	IN A	200.0.0.1
+
+us.		IN NS	dnsusa.us.
+dnsusa.us	IN A	100.0.0.3
+
+it.		IN NS	dnsit.it.
+dnsit.it	IN A	120.0.0.2
+
+com.		IN NS	dnsweb.com
+dnsweb.com	IN A	172.0.0.6

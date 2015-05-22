@@ -1,0 +1,14 @@
+$TTL	60000
+@			IN SOA dnsit.it		root.dnsit.it.(
+			1 ; serial
+			28800 ; refresg
+			14400 ; retry
+			3600000 ; expire
+			0 ; negative cache ttl
+			)
+;
+
+@		IN NS	dnsit.it.
+dnsit		IN A	120.0.0.2
+
+pc8		IN A	120.0.0.3

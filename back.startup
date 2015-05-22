@@ -1,0 +1,10 @@
+ifconfig eth0 192.0.0.6 netmask 255.255.255.0 broadcast 192.0.0.255 up
+route add default gw 192.0.0.1 dev eth0
+/etc/init.d/apache2 start
+a2dissite default
+a2ensite default
+/etc/init.d/apache2 reload
+/etc/init.d/apache2 restart
+#./build-dh
+/etc/init.d/openvpn start
+ifconfig tun0
