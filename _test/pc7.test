@@ -1,0 +1,14 @@
+#!/bin/sh
+
+echo "Testiamo il loadbalancing sul carico tra server1 e server2 USA."
+echo "Inoltre verifichiamo anche il balancing su base geografica."
+
+for ((i=1; i<=10; i++))
+do
+	links -dump web.com
+	echo
+done
+
+touch /hostlab/pc7.testdone
+sleep 5
+halt

@@ -1,0 +1,20 @@
+#!/bin/sh
+
+echo Effettuiamo un tcpdump per verificare che le filiali Italiane abbiano indirizzamento interno privato
+echo
+echo
+#Faccio tcpdump su pc8
+tcpdump -n -t -c 20
+echo
+echo
+echo
+
+echo "Verifichiamo il balancing su base geografica."
+
+
+#Ci colleghiamo al server web-it tramite links
+links -dump web.com 
+
+touch /hostlab/pc8.testdone
+sleep 5
+halt

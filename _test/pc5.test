@@ -1,0 +1,18 @@
+#!/bin/sh
+
+echo pc5 comunica con pc8
+echo
+#Trying ping from pc5 to pc8
+ping -c 5 -i 0.5 120.0.0.3
+
+echo
+echo
+echo pc5 comunica con pc3
+#Trying ping from pc5 to pc3
+ping -c 5 -i 0.5 192.0.0.3
+echo
+
+
+touch /hostlab/pc5.testdone
+sleep 5
+halt

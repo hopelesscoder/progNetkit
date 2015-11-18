@@ -1,0 +1,43 @@
+[NETWORK INTERFACES]
+ eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast qlen 1000    inet 172.0.0.6/24 brd 172.0.0.255 scope global eth0       valid_lft forever preferred_lft forever
+ lo: <LOOPBACK,UP,LOWER_UP> mtu 16436 qdisc noqueue     inet 127.0.0.1/8 scope host lo    inet6 ::1/128 scope host        valid_lft forever preferred_lft forever
+ teql0: <NOARP> mtu 1500 qdisc noop qlen 100
+
+[ROUTING TABLE]
+0.0.0.0         172.0.0.5       0.0.0.0         UG    0      0        0 eth0
+172.0.0.0       0.0.0.0         255.255.255.0   U     0      0        0 eth0
+
+[LISTENING PORTS]
+tcp        0      0 0.0.0.0:111             0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:53            0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:953           0.0.0.0:*               LISTEN     
+tcp        0      0 172.0.0.6:53            0.0.0.0:*               LISTEN     
+tcp6       0      0 ::1:953                 :::*                    LISTEN     
+udp        0      0 0.0.0.0:111             0.0.0.0:*                          
+udp        0      0 0.0.0.0:43242           0.0.0.0:*                          
+udp        0      0 127.0.0.1:53            0.0.0.0:*                          
+udp        0      0 172.0.0.6:53            0.0.0.0:*                          
+udp6       0      0 :::44189                :::*                               
+[PROCESSES]
+    0 /bin/bash /etc/rc2.d/S99netkit-phase2 start
+    0 /bin/ps -e -o uid,command
+    0 /bin/sh /etc/init.d/rc 2
+    0 /sbin/klogd -x
+    0 /sbin/syslogd
+    0 [aio/0]
+    0 [cifsdnotifyd]
+    0 [cifsoplockd]
+    0 [events/0]
+    0 [kblockd/0]
+    0 [khelper]
+    0 [ksoftirqd/0]
+    0 [kswapd0]
+    0 [kthreadd]
+    0 [nfsiod]
+    0 [pdflush]
+    0 [pdflush]
+    0 [rpciod/0]
+    0 init [2]       
+    1 /sbin/portmap
+  101 /usr/sbin/named -u bind
+

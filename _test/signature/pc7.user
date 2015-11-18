@@ -1,0 +1,42 @@
+Testiamo il loadbalancing sul carico tra server1 e server2 USA.
+Inoltre verifichiamo anche il balancing su base geografica.
+   <<<<<<< HEAD
+                    Questo A" il sito americano sul SERVER 1
+   =======
+                          Questo A" il sito americano
+   >>>>>>> d973c8634bf4dd04a5309f1374878be00347230b
+
+                    Questo A" il sito americano sul SERVER 2
+
+   <<<<<<< HEAD
+                    Questo A" il sito americano sul SERVER 1
+   =======
+                          Questo A" il sito americano
+   >>>>>>> d973c8634bf4dd04a5309f1374878be00347230b
+
+                    Questo A" il sito americano sul SERVER 2
+
+   <<<<<<< HEAD
+                    Questo A" il sito americano sul SERVER 1
+   =======
+                          Questo A" il sito americano
+   >>>>>>> d973c8634bf4dd04a5309f1374878be00347230b
+
+                    Questo A" il sito americano sul SERVER 2
+
+   <<<<<<< HEAD
+                    Questo A" il sito americano sul SERVER 1
+   =======
+                          Questo A" il sito americano
+   >>>>>>> d973c8634bf4dd04a5309f1374878be00347230b
+
+                    Questo A" il sito americano sul SERVER 2
+
+   <<<<<<< HEAD
+                    Questo A" il sito americano sul SERVER 1
+   =======
+                          Questo A" il sito americano
+   >>>>>>> d973c8634bf4dd04a5309f1374878be00347230b
+
+                    Questo A" il sito americano sul SERVER 2
+

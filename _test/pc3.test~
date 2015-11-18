@@ -1,20 +1,18 @@
 #!/bin/sh
 
-echo pc3 comunica con pc5
-echo
 #Trying ping from pc3 to pc5
 ping -c 5 -i 0.5 150.0.0.2
 
 echo
 echo
+echo pc3 comunica con pc5
 
-
-echo pc3 comunica con pc8
-echo
 #Trying ping from pc3 to pc8
 ping -c 5 -i 0.5 120.0.0.3
 
-
+echo
+echo
+echo pc3 comunica con pc8
 
 
 touch /hostlab/pc3.testdone
