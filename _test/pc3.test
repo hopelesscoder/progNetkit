@@ -14,6 +14,16 @@ echo
 #Trying ping from pc3 to pc8
 ping -c 5 -i 0.5 120.0.0.3
 
+echo
+echo
+
+
+echo pc3 comunica con pc1
+echo
+#Trying ping from pc3 to pc1
+ping -c 5 -i 0.5 172.0.0.2
+
+
 
 
 
