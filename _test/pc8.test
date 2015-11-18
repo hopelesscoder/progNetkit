@@ -23,6 +23,13 @@ echo
 ssh -oConnectTimeout=5 10.0.0.2 2>&1
 
 
+echo
+echo
+echo pc8 non comunica con back
+#Trying ping from pc8 to back
+ping -c 5 -i 0.5 20.0.0.1
+
+
 touch /hostlab/pc8.testdone
 sleep 5
 halt
