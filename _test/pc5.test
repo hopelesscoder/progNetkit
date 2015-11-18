@@ -11,6 +11,11 @@ echo pc5 comunica con pc3
 #Trying ping from pc5 to pc3
 ping -c 5 -i 0.5 192.0.0.3
 echo
+echo
+
+echo pc5 comunica con back
+#Trying traceroute from pc5 to back
+traceroute 20.0.0.1
 
 
 touch /hostlab/pc5.testdone
