@@ -1,25 +1,11 @@
-arp who-has 120.0.0.3 tell 120.0.0.1
-arp reply 120.0.0.3 is-at 9e:0c:eb:7f:ff:30
-IP 120.0.0.1 > 120.0.0.3: ICMP echo request, id 9218, seq 1, length 64
-IP 120.0.0.3 > 120.0.0.1: ICMP echo reply, id 9218, seq 1, length 64
-IP 120.0.0.1 > 120.0.0.3: ICMP echo request, id 9218, seq 2, length 64
-IP 120.0.0.3 > 120.0.0.1: ICMP echo reply, id 9218, seq 2, length 64
-IP 120.0.0.1 > 120.0.0.3: ICMP echo request, id 9218, seq 3, length 64
-IP 120.0.0.3 > 120.0.0.1: ICMP echo reply, id 9218, seq 3, length 64
-IP 120.0.0.1 > 120.0.0.3: ICMP echo request, id 9218, seq 4, length 64
-IP 120.0.0.3 > 120.0.0.1: ICMP echo reply, id 9218, seq 4, length 64
-IP 120.0.0.1 > 120.0.0.3: ICMP echo request, id 60673, seq 1, length 64
-IP 120.0.0.3 > 120.0.0.1: ICMP echo reply, id 60673, seq 1, length 64
-IP 120.0.0.1 > 120.0.0.3: ICMP echo request, id 9218, seq 5, length 64
-IP 120.0.0.3 > 120.0.0.1: ICMP echo reply, id 9218, seq 5, length 64
-IP 120.0.0.1 > 120.0.0.3: ICMP echo request, id 60673, seq 2, length 64
-IP 120.0.0.3 > 120.0.0.1: ICMP echo reply, id 60673, seq 2, length 64
-IP 120.0.0.1 > 120.0.0.3: ICMP echo request, id 60673, seq 3, length 64
-IP 120.0.0.3 > 120.0.0.1: ICMP echo reply, id 60673, seq 3, length 64
-IP 120.0.0.1 > 120.0.0.3: ICMP echo request, id 60673, seq 4, length 64
-IP 120.0.0.3 > 120.0.0.1: ICMP echo reply, id 60673, seq 4, length 64
+Effettuiamo un tcpdump per verificare che le filiali Italiane abbiano indirizzamento interno privato
+
+
 
 
 
 Verifichiamo il balancing su base geografica.
-                           Questo A" il sito europeo
+
+Proviamo se la connessione ssh viene rifiutata
+
+ssh: connect to host 10.0.0.2 port 22: No route to host

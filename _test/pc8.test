@@ -15,6 +15,14 @@ echo "Verifichiamo il balancing su base geografica."
 #Ci colleghiamo al server web-it tramite links
 links -dump web.com 
 
+
+echo
+echo Proviamo se la connessione ssh viene rifiutata
+echo
+#Trying ssh
+ssh -oConnectTimeout=5 10.0.0.2 2>&1
+
+
 touch /hostlab/pc8.testdone
 sleep 5
 halt
