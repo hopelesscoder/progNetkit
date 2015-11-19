@@ -3,24 +3,24 @@ Effettuiamo un tcpdump per verificare che le filiali Italiane abbiano indirizzam
 
 arp who-has 120.0.0.3 tell 120.0.0.1
 arp reply 120.0.0.3 is-at 9e:0c:eb:7f:ff:30
-IP 120.0.0.1 > 120.0.0.3: ICMP echo request, id 9986, seq 1, length 64
-IP 120.0.0.3 > 120.0.0.1: ICMP echo reply, id 9986, seq 1, length 64
-IP 120.0.0.1 > 120.0.0.3: ICMP echo request, id 9986, seq 2, length 64
-IP 120.0.0.3 > 120.0.0.1: ICMP echo reply, id 9986, seq 2, length 64
-IP 120.0.0.1 > 120.0.0.3: ICMP echo request, id 9986, seq 3, length 64
-IP 120.0.0.3 > 120.0.0.1: ICMP echo reply, id 9986, seq 3, length 64
-IP 120.0.0.1 > 120.0.0.3: ICMP echo request, id 9986, seq 4, length 64
-IP 120.0.0.3 > 120.0.0.1: ICMP echo reply, id 9986, seq 4, length 64
-IP 120.0.0.1 > 120.0.0.3: ICMP echo request, id 9986, seq 5, length 64
-IP 120.0.0.3 > 120.0.0.1: ICMP echo reply, id 9986, seq 5, length 64
-IP 120.0.0.1 > 120.0.0.3: ICMP echo request, id 61185, seq 1, length 64
-IP 120.0.0.3 > 120.0.0.1: ICMP echo reply, id 61185, seq 1, length 64
-IP 120.0.0.1 > 120.0.0.3: ICMP echo request, id 61185, seq 2, length 64
-IP 120.0.0.3 > 120.0.0.1: ICMP echo reply, id 61185, seq 2, length 64
-IP 120.0.0.1 > 120.0.0.3: ICMP echo request, id 61185, seq 3, length 64
-IP 120.0.0.3 > 120.0.0.1: ICMP echo reply, id 61185, seq 3, length 64
-IP 120.0.0.1 > 120.0.0.3: ICMP echo request, id 61185, seq 4, length 64
-IP 120.0.0.3 > 120.0.0.1: ICMP echo reply, id 61185, seq 4, length 64
+IP 120.0.0.1 > 120.0.0.3: ICMP echo request, id 11010, seq 1, length 64
+IP 120.0.0.3 > 120.0.0.1: ICMP echo reply, id 11010, seq 1, length 64
+IP 120.0.0.1 > 120.0.0.3: ICMP echo request, id 10754, seq 1, length 64
+IP 120.0.0.3 > 120.0.0.1: ICMP echo reply, id 10754, seq 1, length 64
+IP 120.0.0.1 > 120.0.0.3: ICMP echo request, id 11010, seq 2, length 64
+IP 120.0.0.3 > 120.0.0.1: ICMP echo reply, id 11010, seq 2, length 64
+IP 120.0.0.1 > 120.0.0.3: ICMP echo request, id 10754, seq 2, length 64
+IP 120.0.0.3 > 120.0.0.1: ICMP echo reply, id 10754, seq 2, length 64
+IP 120.0.0.1 > 120.0.0.3: ICMP echo request, id 11010, seq 3, length 64
+IP 120.0.0.3 > 120.0.0.1: ICMP echo reply, id 11010, seq 3, length 64
+IP 120.0.0.1 > 120.0.0.3: ICMP echo request, id 10754, seq 3, length 64
+IP 120.0.0.3 > 120.0.0.1: ICMP echo reply, id 10754, seq 3, length 64
+IP 120.0.0.1 > 120.0.0.3: ICMP echo request, id 11010, seq 4, length 64
+IP 120.0.0.3 > 120.0.0.1: ICMP echo reply, id 11010, seq 4, length 64
+IP 120.0.0.1 > 120.0.0.3: ICMP echo request, id 10754, seq 4, length 64
+IP 120.0.0.3 > 120.0.0.1: ICMP echo reply, id 10754, seq 4, length 64
+IP 120.0.0.1 > 120.0.0.3: ICMP echo request, id 11010, seq 5, length 64
+IP 120.0.0.3 > 120.0.0.1: ICMP echo reply, id 11010, seq 5, length 64
 
 
 
@@ -44,5 +44,5 @@ From 120.0.0.1 icmp_seq=4 Destination Net Unreachable
 From 120.0.0.1 icmp_seq=5 Destination Net Unreachable
 
 --- 20.0.0.1 ping statistics ---
-5 packets transmitted, 0 received, +5 errors, 100% packet loss, time 1998ms
+5 packets transmitted, 0 received, +5 errors, 100% packet loss, time 2010ms
 

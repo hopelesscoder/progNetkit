@@ -1,23 +1,23 @@
 [NETWORK INTERFACES]
- eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast qlen 1000    inet 200.0.0.1/30 brd 200.0.0.3 scope global eth0       valid_lft forever preferred_lft forever
+ eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast qlen 1000    inet 120.0.0.2/24 brd 120.0.0.255 scope global eth0       valid_lft forever preferred_lft forever
  lo: <LOOPBACK,UP,LOWER_UP> mtu 16436 qdisc noqueue     inet 127.0.0.1/8 scope host lo    inet6 ::1/128 scope host        valid_lft forever preferred_lft forever
  teql0: <NOARP> mtu 1500 qdisc noop qlen 100
 
 [ROUTING TABLE]
-0.0.0.0         200.0.0.2       0.0.0.0         UG    0      0        0 eth0
-200.0.0.0       0.0.0.0         255.255.255.252 U     0      0        0 eth0
+0.0.0.0         120.0.0.1       0.0.0.0         UG    0      0        0 eth0
+120.0.0.0       0.0.0.0         255.255.255.0   U     0      0        0 eth0
 
 [LISTENING PORTS]
 tcp        0      0 0.0.0.0:111             0.0.0.0:*               LISTEN     
+tcp        0      0 120.0.0.2:53            0.0.0.0:*               LISTEN     
 tcp        0      0 127.0.0.1:53            0.0.0.0:*               LISTEN     
 tcp        0      0 127.0.0.1:953           0.0.0.0:*               LISTEN     
-tcp        0      0 200.0.0.1:53            0.0.0.0:*               LISTEN     
 tcp6       0      0 ::1:953                 :::*                    LISTEN     
 udp        0      0 0.0.0.0:111             0.0.0.0:*                          
-udp        0      0 0.0.0.0:34528           0.0.0.0:*                          
+udp        0      0 0.0.0.0:38866           0.0.0.0:*                          
+udp        0      0 120.0.0.2:53            0.0.0.0:*                          
 udp        0      0 127.0.0.1:53            0.0.0.0:*                          
-udp        0      0 200.0.0.1:53            0.0.0.0:*                          
-udp6       0      0 :::46803                :::*                               
+udp6       0      0 :::59214                :::*                               
 [PROCESSES]
     0 /bin/bash /etc/rc2.d/S99netkit-phase2 start
     0 /bin/ps -e -o uid,command

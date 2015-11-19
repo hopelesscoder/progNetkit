@@ -1,43 +1,44 @@
 pc3 comunica con pc5
 
 PING 150.0.0.2 (150.0.0.2) 56(84) bytes of data.
-64 bytes from 150.0.0.2: icmp_seq=1 ttl=63 time=0.480 ms
+64 bytes from 150.0.0.2: icmp_seq=1 ttl=63 time=220 ms
 From 192.0.0.1: icmp_seq=2 Redirect Host(New nexthop: 192.0.0.5)
-64 bytes from 150.0.0.2: icmp_seq=2 ttl=63 time=0.515 ms
+64 bytes from 150.0.0.2: icmp_seq=2 ttl=63 time=119 ms
 From 192.0.0.1: icmp_seq=3 Redirect Host(New nexthop: 192.0.0.5)
-64 bytes from 150.0.0.2: icmp_seq=3 ttl=63 time=0.906 ms
-64 bytes from 150.0.0.2: icmp_seq=4 ttl=63 time=0.899 ms
+64 bytes from 150.0.0.2: icmp_seq=3 ttl=63 time=23.2 ms
+From 192.0.0.1: icmp_seq=4 Redirect Host(New nexthop: 192.0.0.5)
+64 bytes from 150.0.0.2: icmp_seq=4 ttl=63 time=0.942 ms
 From 192.0.0.1: icmp_seq=5 Redirect Host(New nexthop: 192.0.0.5)
-64 bytes from 150.0.0.2: icmp_seq=5 ttl=63 time=0.954 ms
+64 bytes from 150.0.0.2: icmp_seq=5 ttl=63 time=0.907 ms
 
 --- 150.0.0.2 ping statistics ---
-5 packets transmitted, 5 received, 0% packet loss, time 2025ms
-rtt min/avg/max/mdev = 0.480/0.750/0.954/0.210 ms
+5 packets transmitted, 5 received, 0% packet loss, time 2033ms
+rtt min/avg/max/mdev = 0.907/73.021/220.218/85.698 ms
 
 
 pc3 comunica con pc1
 
 PING 172.0.0.2 (172.0.0.2) 56(84) bytes of data.
-64 bytes from 172.0.0.2: icmp_seq=1 ttl=62 time=0.596 ms
-64 bytes from 172.0.0.2: icmp_seq=2 ttl=62 time=0.434 ms
-64 bytes from 172.0.0.2: icmp_seq=3 ttl=62 time=0.465 ms
-64 bytes from 172.0.0.2: icmp_seq=4 ttl=62 time=0.283 ms
-64 bytes from 172.0.0.2: icmp_seq=5 ttl=62 time=0.542 ms
+64 bytes from 172.0.0.2: icmp_seq=1 ttl=62 time=1.01 ms
+64 bytes from 172.0.0.2: icmp_seq=2 ttl=62 time=1.22 ms
+64 bytes from 172.0.0.2: icmp_seq=3 ttl=62 time=1.54 ms
+64 bytes from 172.0.0.2: icmp_seq=4 ttl=62 time=2.73 ms
+64 bytes from 172.0.0.2: icmp_seq=5 ttl=62 time=498 ms
 
 --- 172.0.0.2 ping statistics ---
-5 packets transmitted, 5 received, 0% packet loss, time 1998ms
-rtt min/avg/max/mdev = 0.283/0.464/0.596/0.106 ms
+5 packets transmitted, 5 received, 0% packet loss, time 2248ms
+rtt min/avg/max/mdev = 1.012/101.075/498.859/198.892 ms
 
 
 pc3 comunica con pc8
 
 PING 120.0.0.3 (120.0.0.3) 56(84) bytes of data.
-64 bytes from 120.0.0.3: icmp_seq=1 ttl=63 time=0.548 ms
-64 bytes from 120.0.0.3: icmp_seq=2 ttl=63 time=0.488 ms
-64 bytes from 120.0.0.3: icmp_seq=3 ttl=63 time=0.212 ms
-64 bytes from 120.0.0.3: icmp_seq=4 ttl=63 time=0.666 ms
-64 bytes from 120.0.0.3: icmp_seq=5 ttl=63 time=0.305 ms
+64 bytes from 120.0.0.3: icmp_seq=1 ttl=63 time=1.05 ms
+64 bytes from 120.0.0.3: icmp_seq=2 ttl=63 time=29.6 ms
+64 bytes from 120.0.0.3: icmp_seq=3 ttl=63 time=1.06 ms
+64 bytes from 120.0.0.3: icmp_seq=4 ttl=63 time=188 ms
+64 bytes from 120.0.0.3: icmp_seq=5 ttl=63 time=165 ms
 
 --- 120.0.0.3 ping statistics ---
-5 packets transmitted, 5 received, 0% packet loss, time 2016ms
-rtt min/avg/max/mdev = 0.212/0.443/0.666/0.166 ms
+5 packets transmitted, 5 received, 0% packet loss, time 2046ms
+rtt min/avg/max/mdev = 1.053/77.152/188.064/82.487 ms
