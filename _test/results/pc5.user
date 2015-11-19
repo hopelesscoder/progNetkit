@@ -1,0 +1,29 @@
+pc5 comunica con back
+ 1  150.0.0.1 (150.0.0.1)  0 ms !N  0 ms !N  1 ms !N
+
+
+pc5 comunica con pc3
+PING 192.0.0.3 (192.0.0.3) 56(84) bytes of data.
+64 bytes from 192.0.0.3: icmp_seq=1 ttl=62 time=16.0 ms
+64 bytes from 192.0.0.3: icmp_seq=2 ttl=62 time=0.916 ms
+64 bytes from 192.0.0.3: icmp_seq=3 ttl=62 time=0.550 ms
+64 bytes from 192.0.0.3: icmp_seq=4 ttl=62 time=0.893 ms
+64 bytes from 192.0.0.3: icmp_seq=5 ttl=62 time=1.21 ms
+
+--- 192.0.0.3 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 2028ms
+rtt min/avg/max/mdev = 0.550/3.916/16.009/6.050 ms
+
+
+pc5 comunica con pc8
+
+PING 120.0.0.3 (120.0.0.3) 56(84) bytes of data.
+64 bytes from 120.0.0.3: icmp_seq=1 ttl=62 time=6.74 ms
+64 bytes from 120.0.0.3: icmp_seq=2 ttl=62 time=0.567 ms
+64 bytes from 120.0.0.3: icmp_seq=3 ttl=62 time=0.589 ms
+64 bytes from 120.0.0.3: icmp_seq=4 ttl=62 time=0.618 ms
+64 bytes from 120.0.0.3: icmp_seq=5 ttl=62 time=1.14 ms
+
+--- 120.0.0.3 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 2021ms
+rtt min/avg/max/mdev = 0.567/1.931/6.742/2.415 ms
