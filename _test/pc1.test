@@ -6,6 +6,6 @@ echo
 ping -c 5 -i 0.5 192.0.0.3
 
 
-touch /hostlab/pc3.testdone
+touch /hostlab/pc1.testdone
 sleep 5
 halt
