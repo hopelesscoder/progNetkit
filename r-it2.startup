@@ -1,0 +1,5 @@
+ifconfig eth0 150.0.0.3 netmask 255.255.255.0 broadcast 150.0.0.255 up
+ifconfig eth1 120.0.0.4 netmask 255.255.255.0 broadcast 120.0.0.255 up
+ifconfig eth1:1 120.0.0.11 netmask 255.255.255.0 broadcast 120.0.0.255 up
+/etc/init.d/zebra start
+/root/set_nat_type.sh 
