@@ -1,5 +1,7 @@
 #!/bin/sh
 
+sleep 10
+
 echo "Testiamo il loadbalancing sul carico tra server1 e server2 USA."
 echo "Inoltre verifichiamo anche il balancing su base geografica."
 

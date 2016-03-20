@@ -1,5 +1,7 @@
 #!/bin/sh
 
+sleep 10
+
 echo Effettuiamo un tcpdump per verificare che le filiali Italiane abbiano indirizzamento interno privato
 echo
 echo

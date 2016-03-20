@@ -1,5 +1,7 @@
 #!/bin/sh
 
+sleep 10
+
 echo pc1 comunica con pc3
 echo
 #Trying ping from pc1 to pc3
