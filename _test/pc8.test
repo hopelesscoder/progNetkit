@@ -6,7 +6,7 @@ echo Effettuiamo un tcpdump per verificare che le filiali Italiane abbiano indir
 echo
 echo
 #Faccio tcpdump su pc8
-tcpdump -n -t -c 20
+tcpdump -n -t -c 25 | grep ICMP
 echo
 echo
 echo
