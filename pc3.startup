@@ -1,2 +1,4 @@
 ifconfig eth0 192.0.0.3 netmask 255.255.255.0 broadcast 192.0.0.255 up
+route add -net 172.0.0.0 netmask 255.255.255.0 gw 192.0.0.1 dev eth0
+route add -net 150.0.0.0 netmask 255.255.255.0 gw 192.0.0.5 dev eth0
 route add default gw 192.0.0.1 dev eth0
