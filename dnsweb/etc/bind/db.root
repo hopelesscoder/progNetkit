@@ -9,7 +9,7 @@ $TTL	60000
 ;
 
 .		IN NS	ROOTSERVER.
-ROOTSERVER.	IN A	172.0.0.6
+ROOTSERVER.	IN A	100.0.0.12
 
 us.		IN NS	dnsusa.us.
 dnsusa.us	IN A	100.0.0.3
@@ -18,4 +18,4 @@ it.		IN NS	dnsit.it.
 dnsit.it	IN A	120.0.0.2
 
 com.		IN NS	dnsweb.com
-dnsweb.com	IN A	172.0.0.6
+dnsweb.com	IN A	100.0.0.12

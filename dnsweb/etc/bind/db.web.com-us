@@ -8,7 +8,7 @@ $TTL 0
 		)
 ;
 @		IN NS	dnsweb.com.
-dnsweb		IN A	172.0.0.6
+dnsweb		IN A	100.0.0.12
 
-web		IN A	172.0.0.1
-web		IN A	172.0.0.25
+web		IN A	100.0.0.10
+web		IN A	100.0.0.11

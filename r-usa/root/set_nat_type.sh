@@ -17,7 +17,7 @@ iptables --table nat --flush POSTROUTING
 
 
       # Appear to the outside with fixed addresses
-	iptables --table nat -A POSTROUTING --jump MASQUERADE --out-interface eth1 --source 172.0.0.0/24 #--destination 0/0
+	iptables --table nat -A POSTROUTING --jump MASQUERADE --out-interface eth1 #--source 172.0.0.0/24 #--destination 0/0
 	# web-usa si raggiunge all'indirizzo 100.0.0.10
 	iptables --table nat --append PREROUTING --in-interface eth1 --destination 100.0.0.10  --jump DNAT --to-destination  172.0.0.1
 	# web-usa2 si raggiunge all'indirizzo 100.0.0.11	
