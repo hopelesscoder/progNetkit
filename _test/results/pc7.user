@@ -1,7 +1,19 @@
+Effettuiamo un tcpdump per verificare che la sede centrale abbia indirizzamento interno privato
+
+
+IP 100.0.0.1 > 100.0.0.2: ICMP echo request, id 42242, seq 1, length 64
+IP 100.0.0.2 > 100.0.0.1: ICMP echo reply, id 42242, seq 1, length 64
+IP 100.0.0.1 > 100.0.0.2: ICMP echo request, id 42242, seq 2, length 64
+IP 100.0.0.2 > 100.0.0.1: ICMP echo reply, id 42242, seq 2, length 64
+IP 100.0.0.1 > 100.0.0.2: ICMP echo request, id 42242, seq 3, length 64
+IP 100.0.0.2 > 100.0.0.1: ICMP echo reply, id 42242, seq 3, length 64
+IP 100.0.0.1 > 100.0.0.2: ICMP echo request, id 42242, seq 4, length 64
+IP 100.0.0.2 > 100.0.0.1: ICMP echo reply, id 42242, seq 4, length 64
+IP 100.0.0.1 > 100.0.0.2: ICMP echo request, id 42242, seq 5, length 64
+
+
 Testiamo il loadbalancing sul carico tra server1 e server2 USA.
 Inoltre verifichiamo anche il balancing su base geografica.
-                    Questo e il sito americano sul SERVER 2
-
                     Questo e il sito americano sul SERVER 1
 
                     Questo e il sito americano sul SERVER 2
@@ -19,4 +31,6 @@ Inoltre verifichiamo anche il balancing su base geografica.
                     Questo e il sito americano sul SERVER 2
 
                     Questo e il sito americano sul SERVER 1
+
+                    Questo e il sito americano sul SERVER 2
 

@@ -1,6 +1,15 @@
 #!/bin/sh
 
-sleep 10
+sleep 5
+
+echo Effettuiamo un tcpdump per verificare che la sede centrale abbia indirizzamento interno privato
+echo
+echo
+#Faccio tcpdump su pc7
+tcpdump -n -t -c 12 | grep ICMP
+
+echo
+echo
 
 echo "Testiamo il loadbalancing sul carico tra server1 e server2 USA."
 echo "Inoltre verifichiamo anche il balancing su base geografica."

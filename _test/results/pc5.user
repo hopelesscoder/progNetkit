@@ -1,30 +1,37 @@
-pc5 comunica con back
-traceroute to 20.0.0.1 (20.0.0.1), 64 hops max, 40 byte packets
- 1  20.0.0.1 (20.0.0.1)  5 ms  4 ms  4 ms
-
-
 pc5 comunica con pc3
 PING 192.0.0.3 (192.0.0.3) 56(84) bytes of data.
-64 bytes from 192.0.0.3: icmp_seq=1 ttl=62 time=0.676 ms
-64 bytes from 192.0.0.3: icmp_seq=2 ttl=62 time=0.833 ms
-64 bytes from 192.0.0.3: icmp_seq=3 ttl=62 time=1.13 ms
-64 bytes from 192.0.0.3: icmp_seq=4 ttl=62 time=184 ms
-64 bytes from 192.0.0.3: icmp_seq=5 ttl=62 time=0.996 ms
+64 bytes from 192.0.0.3: icmp_seq=1 ttl=63 time=1.07 ms
+64 bytes from 192.0.0.3: icmp_seq=2 ttl=63 time=0.747 ms
+64 bytes from 192.0.0.3: icmp_seq=3 ttl=63 time=1.03 ms
+64 bytes from 192.0.0.3: icmp_seq=4 ttl=63 time=0.938 ms
+64 bytes from 192.0.0.3: icmp_seq=5 ttl=63 time=0.875 ms
 
 --- 192.0.0.3 ping statistics ---
-5 packets transmitted, 5 received, 0% packet loss, time 2644ms
-rtt min/avg/max/mdev = 0.676/37.534/184.037/73.251 ms
+5 packets transmitted, 5 received, 0% packet loss, time 2038ms
+rtt min/avg/max/mdev = 0.747/0.932/1.074/0.122 ms
+
+
+pc5 comunica con back
+traceroute to 20.0.0.1 (20.0.0.1), 64 hops max, 40 byte packets
+ 1  20.0.0.1 (20.0.0.1)  4 ms  3 ms  2 ms
 
 
 pc5 comunica con pc8
 
 PING 120.0.0.3 (120.0.0.3) 56(84) bytes of data.
-64 bytes from 120.0.0.3: icmp_seq=1 ttl=62 time=21.4 ms
-64 bytes from 120.0.0.3: icmp_seq=2 ttl=62 time=1.48 ms
-64 bytes from 120.0.0.3: icmp_seq=3 ttl=62 time=1.06 ms
-64 bytes from 120.0.0.3: icmp_seq=4 ttl=62 time=1.53 ms
-64 bytes from 120.0.0.3: icmp_seq=5 ttl=62 time=1.41 ms
+64 bytes from 120.0.0.3: icmp_seq=1 ttl=63 time=24.3 ms
+64 bytes from 120.0.0.3: icmp_seq=2 ttl=63 time=0.887 ms
+64 bytes from 120.0.0.3: icmp_seq=3 ttl=63 time=0.863 ms
+64 bytes from 120.0.0.3: icmp_seq=4 ttl=63 time=0.867 ms
+64 bytes from 120.0.0.3: icmp_seq=5 ttl=63 time=9.29 ms
 
 --- 120.0.0.3 ping statistics ---
-5 packets transmitted, 5 received, 0% packet loss, time 2050ms
-rtt min/avg/max/mdev = 1.067/5.387/21.430/8.023 ms
+5 packets transmitted, 5 received, 0% packet loss, time 2711ms
+rtt min/avg/max/mdev = 0.863/7.245/24.319/9.138 ms
+
+
+Ci colleghiamo al server web back end tramite links
+                         Questo e il back-end aziendale
+
+
+                         Questo e il back-end aziendale

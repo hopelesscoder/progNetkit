@@ -7,6 +7,13 @@ echo
 #Trying ping from pc1 to pc3
 ping -c 5 -i 0.5 192.0.0.3
 
+echo
+echo
+sleep 5
+echo pc1 comunica con pc7
+echo
+#Trying ping from pc1 to pc7
+ping -c 5 -i 0.5 100.0.0.2
 
 touch /hostlab/pc1.testdone
 sleep 5

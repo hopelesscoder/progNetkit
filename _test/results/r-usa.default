@@ -1,18 +1,16 @@
 [NETWORK INTERFACES]
  eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast qlen 1000    inet 172.0.0.4/24 brd 172.0.0.255 scope global eth0       valid_lft forever preferred_lft forever
- eth1: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast qlen 1000    inet 100.0.0.1/24 brd 100.0.0.255 scope global eth1       valid_lft forever preferred_lft forever
+ eth1: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast qlen 1000    inet 100.0.0.1/24 brd 100.0.0.255 scope global eth1    inet 100.0.0.10/24 brd 100.0.0.255 scope global secondary eth1:1    inet 100.0.0.11/24 brd 100.0.0.255 scope global secondary eth1:2    inet 100.0.0.12/24 brd 100.0.0.255 scope global secondary eth1:3       valid_lft forever preferred_lft forever
  lo: <LOOPBACK,UP,LOWER_UP> mtu 16436 qdisc noqueue     inet 127.0.0.1/8 scope host lo    inet6 ::1/128 scope host        valid_lft forever preferred_lft forever
  teql0: <NOARP> mtu 1500 qdisc noop qlen 100
 
 [ROUTING TABLE]
-10.0.0.0        172.0.0.5       255.255.255.252 UG    4      0        0 eth0
+10.0.0.0        172.0.0.5       255.255.255.252 UG    3      0        0 eth0
 100.0.0.0       0.0.0.0         255.255.255.0   U     0      0        0 eth1
-120.0.0.0       172.0.0.5       255.255.255.0   UG    3      0        0 eth0
-150.0.0.0       172.0.0.5       255.255.255.0   UG    4      0        0 eth0
+120.0.0.0       172.0.0.5       255.255.255.0   UG    2      0        0 eth0
+150.0.0.0       172.0.0.5       255.255.255.0   UG    3      0        0 eth0
 172.0.0.0       0.0.0.0         255.255.255.0   U     0      0        0 eth0
-180.0.0.0       172.0.0.5       255.255.255.252 UG    2      0        0 eth0
-192.0.0.0       172.0.0.5       255.255.255.0   UG    3      0        0 eth0
-200.0.0.0       172.0.0.5       255.255.255.252 UG    2      0        0 eth0
+192.0.0.0       172.0.0.5       255.255.255.0   UG    2      0        0 eth0
 
 [LISTENING PORTS]
 raw6       0      0 :::58                   :::*                    7          
